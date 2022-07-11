@@ -1,16 +1,20 @@
 determiner = 50;
+if(determiner>0)
 x= 30;
+else
+x=-30;
 
+let updater = "";
 if(determiner>=0)
 {
 updater= "Greater or equal to 0";
-console.log(updater);
 message = "Positive Integer" ;
 console.log(message);
-console.log(updater);
 }
 else
+{
 updater= "Less than 0";
+}
 console.log(updater);
 
 // We get 'undefined'
